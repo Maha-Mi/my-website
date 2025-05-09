@@ -2,46 +2,147 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Static Page with Image</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RANDRIANARIJAONA Mahasetra Mikaela - CV</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f0f0f0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
       margin: 0;
-    }
-    .card {
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-      text-align: center;
-      max-width: 400px;
-    }
-    .card img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-    h1 {
-      margin-top: 20px;
+      padding: 0;
+      background-color: #f4f7fa;
       color: #333;
     }
-    p {
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 30px 0;
+    }
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+    h1 {
+      margin-top: 10px;
+      color: #333;
+    }
+    h3 {
+      margin-top: 5px;
       color: #555;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      color: #4CAF50;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 10px;
+    }
+    .section ul {
+      list-style: none;
+      padding: 0;
+    }
+    .section ul li {
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .button:hover {
+      background-color: #45a049;
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <!-- Replace the src URL below with your own image or file name -->
-    <img src="https://placekitten.com/400/250" alt="Cute Cat" />
-    <h1>Hello from Mahasetra Mikaela Web Page</h1>
-    <p>This is a simple static page with an image inside. Enjoy!</p>
+
+<header>
+  <h1>RANDRIANARIJAONA Mahasetra Mikaela</h1>
+  <h3>Double Master's in Electrical Engineering and MBA</h3>
+</header>
+
+<div class="container">
+  <div class="profile">
+    <!-- You can replace this image with your own image file -->
+    <img src="https://placekitten.com/150/150" alt="Your Photo">
+    <p>Email: mikaela@email.com</p>
+    <p>Phone: +261 34 29 754 09</p>
+    <p>Location: Antananarivo, Madagascar</p>
   </div>
+
+  <!-- Education Section -->
+  <div class="section">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Master's in Electrical Engineering</strong> - [University Name], [Year]</li>
+      <li><strong>Master's in Business Administration (MBA)</strong> - [University Name], [Year]</li>
+    </ul>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Electrical Circuit Design</li>
+      <li>Project Management</li>
+      <li>Business Strategy and Analysis</li>
+      <li>Data Analytics</li>
+      <li>Leadership and Team Management</li>
+    </ul>
+  </div>
+
+  <!-- Experience Section -->
+  <div class="section">
+    <h2>Professional Experience</h2>
+    <ul>
+      <li><strong>Electrical Engineer</strong> - [Company Name], [Year] - [Year]</li>
+      <li><strong>Project Manager</strong> - [Company Name], [Year] - [Year]</li>
+      <li><strong>Business Analyst Intern</strong> - [Company Name], [Year] - [Year]</li>
+    </ul>
+  </div>
+
+  <!-- Certifications Section -->
+  <div class="section">
+    <h2>Certifications</h2>
+    <ul>
+      <li><strong>Certified Project Management Professional (PMP)</strong> - [Year]</li>
+      <li><strong>Certified Electrical Engineer (CEE)</strong> - [Year]</li>
+    </ul>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="section">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to <a href="mailto:mikaela@email.com" class="button">Email Me</a></p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 RANDRIANARIJAONA Mahasetra Mikaela. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
